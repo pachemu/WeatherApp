@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="name">
+                <span>Погода</span>
+            </div>
+        </header>
+        <main class="main">
+            <div class="mainDiv">
+                <div class="form">
+                    <input id="input" type="text" placeholder="Введите свой город" value="Simferopol" oninput="searchCities()">
+                    <div id="searchResults"></div>
+                    <button id="button" class="button"></button>
+                </div>
+                <div id="city" class="city">Simferopol</div>
+            <div class="tempImg">
+                <div id="temp" class="temp">15&#176;</div>
+                <img src="icons8-temperature-50.png">
+            </div>
+            <div class="speedImg">
+                <div id="speed" class="speed">15km/h</div>
+                <img src="icons8-speed-50.png">
+            </div>
+            <div class="humidityImg">
+                <div id="humidity" class="humidity">55%</div>
+                <img src="icons8-humidity-50.png">
+            </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+    <script src='main.js'></script>
+</html>
